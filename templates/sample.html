@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ sitename }}</title>
+    </head>
+    <body>
+
+        <h1>{{ sitename }}</h1>
+
+        <ul id="navigation"> 
+        {% for item in navigation %}
+            <li><a href="{{ item.href }}">{{ item.caption }}</a></li> 
+        {% endfor %}
+        </ul>
+
+        <h2>Products</h2>
+        
+        {% for item in products %} 
+        <div>
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
+            <p>{{ item.price }}</p>
+        </div>
+        {% endfor %} 
+        
+    </body>
+</html>

@@ -1,0 +1,23 @@
+---
+sitename:     My Site
+
+navigation: 
+  - href:     /template/index.php/sample
+    caption:  Google
+  - href:     http://www.apple.com
+    caption:  Apple
+
+products:
+  - name:           First product
+    description:    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada, 
+      felis pellentesque tincidunt ultricies, quam nunc interdum dolor
+    price:          15.40
+    availability:   Available now
+
+  - name:           Another one
+    description:    >
+      Donec id lacus ac nisi mollis auctor id sodales velit. Duis fringilla, ante ac dictum lacinia, 
+      tortor metus fermentum quam, non eleifend erat augue eget neque.
+    price:          20.00
+    availability:   Soon available
