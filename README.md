@@ -31,7 +31,7 @@ The idea is that If you navigate to
 
 the script will load  the  **templates/sample.html** twig template with the data from **models/sample.yaml** YAML model
 
-### Render a template with different model name or multiple models
+#### Render a template with different model name or multiple models
 
 	http://localhost/projectdirectory/index.php/sample/foo/bar
 
