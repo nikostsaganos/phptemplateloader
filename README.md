@@ -11,7 +11,7 @@ Just clone this repository or [download as .zip](https://github.com/nikostsagano
 
 ## Usage
 
-The following structure is included by default:
+The following structure is included:
 
     /projectdirectory
 	    /models
@@ -24,7 +24,7 @@ By default you can store your **.html templates in /templates** and your **.yaml
 
 In **/templateloader/config.php** you can also change the "template_engine" to "php" if you don't like to use twig. The script will then look for .php templates instead of .html.
 
-### Render a template with it's YAML model
+#### Render a template with it's YAML model
 The idea is that If you navigate to  	
 
 	http://localhost/projectdirectory/index.php/sample 
@@ -37,7 +37,7 @@ the script will load  the  **templates/sample.html** twig template with the data
 
 will load **templates/sample.html** twig template with the data from **models/foo.yaml** and **models/bar.yaml** YAML model
 
-### Autoload common models to all templates
+#### Autoload common models to all templates
 
 You may have some YAML models that hold general data shared along all your templates (e.g. the navigation data, the site's name etc). To autoload this models without adding them as URL parameters edit **/templateloader/config.php** and add them in "**autoload_models**" like this:
 
@@ -46,9 +46,9 @@ You may have some YAML models that hold general data shared along all your templ
         'header'
     ),
 
-### Apache mod_rewrite 
+#### Apache mod_rewrite 
 
-An .htaccess is included, so if you have apache with mod_reqwrite enabled you can ommit the **index.php** part. For example:
+An .htaccess is included, so if you have apache with mod_rewrite enabled you can ommit the **index.php** part. For example:
 
 	http://localhost/projectdirectory/index.php/sample
 	
