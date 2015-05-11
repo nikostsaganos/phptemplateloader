@@ -2,7 +2,7 @@
 
 A simple script that allows you to render **Twig or plain PHP**  templates while manipulating sample data loaded from **YAML models**.
 
-This can be useful for frontend developers that need to manipulate sample data within their templates before the template is used within a CMS. A backend developer may alse provide realistic sample data to use in templating before even having the backend ready.
+This can be useful for frontend developers that need to manipulate sample data within their templates before the template is used within a CMS. A backend developer may also provide realistic sample data to use in templating before even having the backend ready.
 
 ## Installation
 
