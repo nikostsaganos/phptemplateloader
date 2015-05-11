@@ -82,7 +82,7 @@ class TemplateLoader {
 
         $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION)); 
         if (!$ext) {
-            $file .= '.yaml';
+            $file .= '.yml';
         }
 
         $this->modelFiles[] = $file;

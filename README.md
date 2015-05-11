@@ -20,7 +20,7 @@ The following structure is included:
 	    index.php
 	    .htaccess
 
-By default you can store your **.html templates in /templates** and your **.yaml models in /models**. You can change these directories in **/templateloader/config.php**, or you can even use the root directory if you leave the corresponding config entries empty. 
+By default you can store your **.html templates in /templates** and your **.yml models in /models**. You can change these directories in **/templateloader/config.php**, or you can even use the root directory if you leave the corresponding config entries empty. 
 
 In **/templateloader/config.php** you can also change the "template_engine" to "php" if you don't like to use twig. The script will then look for .php templates instead of .html.
 
@@ -29,13 +29,13 @@ The idea is that If you navigate to
 
 	http://localhost/projectdirectory/index.php/sample 
 
-the script will load  the  **templates/sample.html** twig template with the data from **models/sample.yaml** YAML model
+the script will load  the  **templates/sample.html** twig template with the data from **models/sample.yml** YAML model
 
 #### Render a template with different model name or multiple models
 
 	http://localhost/projectdirectory/index.php/sample/foo/bar
 
-will load **templates/sample.html** twig template with the data from **models/foo.yaml** and **models/bar.yaml** YAML model
+will load **templates/sample.html** twig template with the data from **models/foo.yml** and **models/bar.yml** YAML model
 
 #### Autoload common models to all templates
 
